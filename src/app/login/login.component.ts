@@ -18,7 +18,8 @@ export class LoginComponent implements OnInit {
   }
 
   ingresar() {
-    this.router.navigate(['/dashboard']);
+    console.log("ingresando");
+    this.router.navigate([ '/dashboard' ]);
   }
 
 }

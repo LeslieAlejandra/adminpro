@@ -8,7 +8,7 @@ import { SettingsService } from '../../services/service.index';
   styles: []
 })
 export class AccountSettingsComponent implements OnInit {
-// Con estas instrucciones del constructor, se hace referencia a un documento
+// Con estas instrucciones del constructor, se hace referencia a un servicio
   constructor( public _ajustes: SettingsService ) { }
 
   ngOnInit() {
